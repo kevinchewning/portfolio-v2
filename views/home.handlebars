@@ -1,0 +1,422 @@
+<section class="hero is-fullheight is-align-items-center computer-bg snap">
+    <div class="hero-body is-justify-content-center">
+        <div class="hero-text is-full">
+            <p class="title has-text-white">
+            Kevin Chewning
+            </p>
+            <p class="subtitle has-text-white">
+            Web Design & Development
+            </p>
+        </div>
+    </div>
+    <a href="#header" id="down-arrow"></a>
+</section>
+
+{{!-- Header/Navbar --}}
+<header id="header" class="mb-4">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#header">
+                {{!-- Insert Logo Here --}}
+                <img src="" alt="" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <!-- navbar items -->
+            </div>
+
+            <div class="navbar-end">
+                <!-- navbar items -->
+                <a class="navbar-item" href="#about-me">About Me</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#projects">
+                        Projects
+                    </a>
+
+                    <div id="navbar-dropdown" class="navbar-dropdown display-none">
+                        <!-- Other navbar items -->
+                        <a href="#code-refactor" class="navbar-item">Code Refactor</a>
+                        <a href="#password-generator" class="navbar-item">Password Generator</a>
+                        <a href="#code-quiz" class="navbar-item">Code Quiz</a>
+                        <a href="#work-day-scheduler" class="navbar-item">Work Scheduler</a>
+                        <a href="#weather-dashboard" class="navbar-item">Weather Dashboard</a>
+                        <a href="#my-liquor-cabinet" class="navbar-item">My Liquor Cabinet</a>
+                        <a href="#readme-generator" class="navbar-item">README Generator</a>
+                        <a href="#team-profile-generator" class="navbar-item">Team Profile Generator</a>
+                        <a href="#note-taker" class="navbar-item">Note Taker</a>
+                        <a href="#employee-tracker" class="navbar-item">Employee Tracker CMS</a>
+                        <a href="#e-commerce-backend" class="navbar-item">E-Commerce Back End</a>
+                        <a href="#tech-blog" class="navbar-item">Tech Blog</a>
+                        <a href="#minesweeper" class="navbar-item">Minesweeper</a>
+                    </div>
+                </div>
+                <a href="#contact-me" class="navbar-item">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+{{!-- About Me --}}
+<div id="about-me" class="container is-fluid my-4 fullheight-mobile smt snap">
+    <section class="columns">
+        <div class="column is-12">
+            <div class="box media is-flex-wrap-wrap">
+                <div class="container is-flex is-justify-content-center image-box">
+                    <figure class="image is-128x128">
+                        <img src="/images/Self-Portrait.jpg">
+                    </figure>
+                </div>
+                <h2 id="about-me-title" class="meda-content container title mt-4">Hello!<br><span class="is-size-4-mobile">My name is Kevin.</span></h2>
+                <p class="container mt-4">I am a multi-unit manager in the hospitality industry turned developer. I have over a decade of management experience and specialized in turning restaurants profitable. I find the developer industry fascinating and engaging. I would love the opportunity to put my expertise and management experience to work for your company. Please contact me to discuss any upcoming opportunities on your team.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+{{!-- Projects --}}
+<header id="projects" class="hero is-fullheight is-align-items-center code-bg snap">
+    <div class="hero-body is-justify-content-center">
+        <div class="hero-text is-full">
+            <h2 class="title has-text-white">
+            Projects
+            </h2>
+        </div>
+    </div>
+    <a href="#code-refactor" id="down-arrow"></a>
+</header>
+
+<div class="columns is-multiline m-4">
+
+    {{!-- Code Refactor --}}
+    <div id="code-refactor" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/Code-Refactor/blob/main/horiseon-screenshot.png?raw=true" alt="Code Refactor Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Code Refactor</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                An increasingly important consideration for businesses, web accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. This project was to refactor the code for a client using semantic HTML to make it more accessible for its users.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Code-Refactor" target="_blank">Github</a>. <a href="https://kevinchewning.github.io/Code-Refactor/" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Password Generator --}}
+    <div id="password-generator" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/Password-Generator/blob/main/pg-screenshot.png?raw=true" alt="Password Generator Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Password Generator</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                As an employee with access to sensitive data, it is important to use a secure password that will help prevent unauthorized access. I have created an application that will randomly generate a password for the client using their criteria to create a strong password that provides greater security.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Password-Generator" target="_blank">Github</a>. <a href="https://kevinchewning.github.io/Password-Generator/" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Code Quiz --}}
+    <div id="code-quiz" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/Code-Quiz/blob/main/cq-screenshot.JPG?raw=true" alt="Code Quiz Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Code Quiz</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                In my journey to become a full-stack web developer, I am typically asked to complete a coding assessment—perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. This project turned this task into a little fun by creating a coding trivia game, complete with a leaderboard!
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Code-Quiz" target="_blank">Github</a>. <a href="https://kevinchewning.github.io/Code-Quiz/" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Work Day Scheduler --}}
+    <div id="work-day-scheduler" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/Work-Day-Scheduler/blob/main/wds-screenshot.PNG?raw=true" alt="Wprk Scheduler Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Work Scheduler</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                For busier clients, I wanted to create a simple calendar application that allows a user to save events for each hour of the day. The calendar will save user events locally and color code events based on if they are past, current, or future.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Work-Day-Scheduler" target="_blank">Github</a>. <a href="https://kevinchewning.github.io/Work-Day-Scheduler/" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Weather Dashboard --}}
+    <div id="weather-dashboard" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/Weather-Dashboard/blob/main/wd-screenshot.png?raw=true" alt="Weather Dashboard Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Weather Dashboard</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                As a traveler, you want to know the weather you may encounter at your destination. I wanted to develop a simple application using server-side API's that allows a user to search any city and be given a small dashboard with the information they need.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Weather-Dashboard" target="_blank">Github</a>. <a href="https://kevinchewning.github.io/Weather-Dashboard/" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- My Liquor Cabinet --}}
+    <div id="my-liquor-cabinet" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/My-Liquor-Cabinet/blob/main/My-Liquor-Cabinet-screenshot.png?raw=true" alt="My Liquor Cabinet Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">My Liquor Cabinet</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                Worked on a collaborative project to develop an app for amateur mixologists. As a user, we wanted to give the ability to save a list of ingredients they have at home and look up cocktails available to them. The app features the ability to search by exact or partials matches.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/My-Liquor-Cabinet" target="_blank">Github</a>. <a href="https://kevinchewning.github.io/My-Liquor-Cabinet/" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- README Generator --}}
+    <div id="readme-generator" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/README-generator.PNG" alt="README Generator Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">README Generator</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/README-Generator" target="_blank">Github</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Team Profile Generator --}}
+    <div id="team-profile-generator" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/team-profile-generator.PNG" alt="Team Profile Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Team Profile Generator</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                I built a Node.js command-line application that takes in information about employees on a software engineering team, then dynamically generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so I also wrote a unit test for every part of the code to ensure that it passes each test.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Team-Profile-Generator" target="_blank">Github</a>. <a href="https://drive.google.com/file/d/1zVrB5VP5RR07BDm2CVh6RPVDnBXI-Pf3/view" target="_blank">Example Video</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Note Taker --}}
+    <div id="note-taker" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="https://github.com/kevinchewning/Note-Taker/blob/main/nt-screenshot.png?raw=true" alt="Note Taker Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Note Taker</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                Small business owners often have to stay organized and on task, so I wanted to create a simple note taking app that utilized express routing to modify a file on the back end for the user to store, update and delete notes.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Note-Taker" target="_blank">Github</a>. <a href="https://powerful-chamber-57537.herokuapp.com" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Employee Tracker --}}
+    <div id="employee-tracker" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/employee-tracker.PNG" alt="Employee Tracker Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Employee Tracker CMS</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. I wanted to build a command-line application that would help a company manage it's employee database.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Employee-Tracker" target="_blank">Github</a>. <a href="https://drive.google.com/file/d/1tEBxvhTkgu3zTZOmK3wfPip-hmWj-APh/view" target="_blank">Example Video</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- E-Commerce Backend --}}
+    <div id="e-commerce-backend" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/e-commerce-back-end.PNG" alt="E-Commerce Backend Example Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">E-Commerce Back End</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                E-Commerce is ther largest sector of the electronics industry, generating an estimated $29 trillion in 2019. Understanding the fundamental architecture of these platforms is incredibly beneficial to me as a developer so I built a back end for an e-commerce site with MySQL and the Sequelize package.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/E-Commerce-Back-End" target="_blank">Github</a>. <a href="https://drive.google.com/file/d/1eJlvj3PPPxLfwmEYf_8Nia4OSKAjRsu8/view" target="_blank">Example Video</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Tech Blog --}}
+    <div id="tech-blog" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/tech-blog.PNG" alt="Tech Blog Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Tech Blog</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                Writing about tech can be just as important as making it. I wanted to build a CMS-style blog site where developers can publish their blog posts and comment on other posts as well. The app follows the MVC paradigm, utilizes Handlebars.js as the templating language, Sequelize as the ORM, and Express-Session to handle authentication.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Tech-Blog" target="_blank">Github</a>. <a href="https://limitless-retreat-20504.herokuapp.com" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+    {{!-- Minesweeper --}}
+    <div id="minesweeper" class="column is-half-tablet is-one-third-desktop smt snap">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/minesweeper.PNG" alt="Minesweeper Website Image">
+                </figure>
+            </div>
+            <div class="card-header">
+                <div class="card-header-title is-centered">
+                    <h2 class="title">Minesweeper</h2>
+                </div>
+            </div>
+            <div class="card-content">
+                The ability to learn new libraries and collaborate with others are essential skills of any developer. For this project, we wanted to do something fun! I worked with some fellow developers to make a functioning Minesweeper game with the Phaser library, complete with user authentication and leaderboards.
+                <br>
+                <br>
+                View repo on <a href="https://github.com/kevinchewning/Minesweeper-P2" target="_blank">Github</a>. <a href="https://intense-lake-83506.herokuapp.com" target="_blank">Deployment</a>.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{{!-- Contact Me --}}
+<section id="contact-me" class="hero is-fullheight is-align-items-center phone-bg snap">
+    <div class="hero-body is-justify-content-center full-width">
+        <div class="hero-text is-full full-width">
+            <p class="title has-text-white">
+            Contact Me
+            </p>
+            <div class="columns">
+                <a href="tel:5863390568" class="column">
+                    <figure class="image is-64x64 inline-block">
+                        <img src="/images/phone-icon.png" alt="Phone">
+                    </figure>
+                    <p class="subtitle has-text-white inline-block">Phone</p>
+                </a>
+                <a href="mailto:klcbusiness@hotmail.com" class="column">
+                    <figure class="image is-64x64 inline-block">
+                        <img class="bottom" src="/images/email-logo.png" alt="E-mail">
+                    </figure>
+                    <p class="subtitle has-text-white inline-block">Email</p>
+                </a>
+                <a href="https://github.com/kevinchewning" class="column">
+                    <figure class="image is-64x64 inline-block">
+                        <img src="/images/github-logo.png" alt="Github">
+                    </figure>
+                    <p class="subtitle has-text-white inline-block">Github</p>
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-chewning-63973715/" class="column">
+                    <figure class="image is-64x64 inline-block">
+                        <img src="/images/linked-in-logo.png" alt="Linked In">
+                    </figure>
+                    <p class="subtitle has-text-white inline-block">Linked In</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/js/navMenu.js"></script>

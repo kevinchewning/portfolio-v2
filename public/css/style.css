@@ -1,0 +1,86 @@
+body {
+    scroll-snap-type: y proximity;
+}
+
+.snap {
+    scroll-snap-align: start;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+}
+
+.smt {
+    scroll-margin-top: 52px;
+}
+
+.computer-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("/images/computer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#down-arrow {
+    background-image: url('/images/down-arrow.PNG');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.display-none {
+    display: none;
+}
+
+#header {
+    z-index: 100;
+}
+
+.fullheight-mobile {
+    min-height: 100vh;
+}
+
+.code-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("/images/code.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.phone-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("/images/phone-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.full-width {
+    width: 90vw;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (min-width: 429px) {
+    .fullheight-mobile {
+        min-height: auto;
+    }
+
+    .image-box {
+        max-width: fit-content;
+    }
+
+    #about-me-title {
+        margin: 40px 0 0 10px !important;
+    }
+}

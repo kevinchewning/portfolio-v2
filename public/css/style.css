@@ -24,7 +24,7 @@ body {
 }
 
 #down-arrow {
-    background-image: url('/images/down-arrow.PNG');
+    background-image: url('/images/down-arrow.png');
     background-size: cover;
     width: 100px;
     height: 100px;

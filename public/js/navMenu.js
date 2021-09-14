@@ -24,9 +24,14 @@ document.addEventListener('DOMContentLoaded', function () {
   
 });
 
+//Make navbar dropdown activation only clickable if window is less than 1024px
 $('.has-dropdown').on('click', function(event) {
   event.stopPropagation();
 
-  $(this).toggleClass('is-active')
-  $('.navbar-dropdown').toggleClass('display-none')
+  var windowWidth = window.innerWidth;
+  
+  if (windowWidth < 1024) {
+    $(this).toggleClass('is-active')
+    $('.navbar-dropdown').toggleClass('display-none')
+  }
 })

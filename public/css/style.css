@@ -11,6 +11,11 @@ body {
     top: 0;
 }
 
+/* #logo {
+    transform: scale(1.5);
+    padding: 10px 0px 10px 25px;
+} */
+
 .smt {
     scroll-margin-top: 52px;
 }

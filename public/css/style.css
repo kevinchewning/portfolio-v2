@@ -82,10 +82,14 @@ body {
     }
 
     .image-box {
-        max-width: fit-content;
+        max-width: fit-content !important;
     }
 
     #about-me-title {
         margin: 40px 0 0 10px !important;
+    }
+
+    #about-me-image {
+        margin-left: 100px;
     }
 }

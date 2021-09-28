@@ -4,6 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
+const compression = require('compression')
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -25,6 +26,8 @@ const sess = {
     expiration: 15 * 60 * 60 * 1000
   })
 };
+
+app.use(compression());
 
 app.enable('trust proxy');
 

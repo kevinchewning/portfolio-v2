@@ -2,7 +2,7 @@ const router = require('express').Router();
 const nodemailer = require("nodemailer");
 
 router.get('/', async (req, res) => {
-    res.render('home');
+    res.render('home', { pageTitle: "Kevin Chewning Portfolio" });
 });
 
 router.post('/contactme', async (req, res) => {
